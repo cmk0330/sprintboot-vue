@@ -1,9 +1,11 @@
 <template>
-  <Header/>
-  <div style="display: flex">
-    <Aside/>
-  </div>
-  <router-view style="flex: 1"/>
+
+    <Header/>
+    <div style="display: flex">
+      <Aside/>
+      <router-view style="flex: 1"/>
+    </div>
+
 </template>
 
 <script>
